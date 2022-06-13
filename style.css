@@ -1,7 +1,26 @@
 body{
-    background: mediumseagreen;
+    background: black;
 }
-
- .post{
+.post{
     background: white;
+    width: 400px;
+    height: 650px;
+    margin:40px 150px;
+    box-sizing: border-box;
+    align-items:center;
+}
+.head1, .icons{
+    padding-left:15px;
+}
+.ellipsis{
+    display: flex;
+    float:right;
+    object-position: top;}
+.envelope{
+    display: flex;
+    float: right;
+}
+.description, .comments{
+    text-align:left;
+    margin: 15px;
 }
