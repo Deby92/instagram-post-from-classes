@@ -5,20 +5,28 @@ body{
     background: white;
     width: 400px;
     height: 650px;
-    margin:40px 150px;
+    margin:40px 300px;
     box-sizing: border-box;
     align-items:center;
+    font-family: 'Roboto', sans-serif;
 }
-.head1, .icons{
+.head1{
+    padding-left: 15px;
+}
+.icons{
     padding-left:15px;
 }
 .ellipsis{
     display: flex;
     float:right;
-    object-position: top;}
+    object-position: top;
+    margin-right: 5px;
+    flex-wrap:wrap;
+}
 .envelope{
     display: flex;
     float: right;
+    padding-right: 5px;
 }
 .description, .comments{
     text-align:left;
