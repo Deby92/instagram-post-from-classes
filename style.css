@@ -5,23 +5,31 @@ body{
     background: white;
     width: 400px;
     height: 650px;
-    margin:40px 300px;
+    margin:40px 400px;
     box-sizing: border-box;
     align-items:center;
     font-family: 'Roboto', sans-serif;
 }
-.head1{
+.post-head{
+    display:flex;
+    float:left;
     padding-left: 15px;
 }
 .icons{
     padding-left:15px;
 }
 .ellipsis{
-    display: flex;
+    position: right;
     float:right;
-    object-position: top;
-    margin-right: 5px;
-    flex-wrap:wrap;
+    margin-left: 270px;
+    margin-top: 5px;
+}
+.head1{
+    margin-top: 2px;
+}
+.rigoberto{
+    margin-top: 15px;
+    margin-left: 8px;
 }
 .envelope{
     display: flex;
